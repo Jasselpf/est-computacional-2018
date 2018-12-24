@@ -814,7 +814,7 @@ mi_prior <- prior(mu, tau)
 c) 
 ```{r}
 # S: sum x_i, S2: sum x_i^2, N: número obs., sigma: desviación estándar (conocida)
-S <- 13000
+S <- 13000 
 S2 <- 1700000
 N <- 100
 
@@ -834,7 +834,7 @@ likeNorm <- function(S, S2, N, sigma = 20){
 d)
 ```{r}
 mi_like <- likeNorm(S = S, S2 = S2, N = N, sigma = sigma)
-mi_like(130)
+mi_like(150)
 ```
 
 e)
